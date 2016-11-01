@@ -1,0 +1,153 @@
+body {
+
+
+}
+img {
+
+  height: 15em;
+  width: 20em;
+  display: inline-block;
+
+}
+
+hr{
+
+  border-top: 2px solid gray;
+}
+img:hover{
+
+cursor: pointer;
+-webkit-box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.29);
+-moz-box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.29);
+box-shadow: 0px 0px 3px 5px rgba(0,0,0,0.29);
+ -webkit-transition: box-shadow 0.3s ease-in-out 0s;
+-moz-transition: box-shadow 0.3s ease-in-out 0s;
+-o-transition: box-shadow 0.3s ease-in-out 0s;
+-ms-transition: box-shadow 0.3s ease-in-out 0s;
+transition: box-shadow 0.3s ease-in-out 0s;
+}
+
+p {
+
+  position: absolute;
+  top: 4.2em;
+  left: 1.33em;
+  width: 100%;
+}
+
+a{
+  color: black;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.nav-justified {
+  margin-top: -2.2em;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+  }
+
+.nav-justified > li > a:hover {
+  background:rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  color: white;
+  }
+
+
+
+.image{
+  margin-top: 2em;
+  position: relative;
+  width: 100%;
+}
+
+
+h2 span {
+   color: white;
+   font: bold 20px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+
+}
+
+
+h2{
+     position: absolute;
+     top: 4.2em;
+     left: 3em;
+     width: 100%;
+}
+
+.btn-warning {
+background: #848484;
+  margin-top: 2em;
+
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 17px 22px;
+    font-size: 25px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    border: 1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+img.text {
+
+opacity: 0;
+
+}
+
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+
+}
+
+.col-md-8 {
+    width: auto;
+}
+
+
+
+.text-center{
+  text-align: center;
+}
+img.text:hover{
+
+  opacity: 1;
+}
+
+img.small {
+
+  height: 15em;
+  width: 17em;
+}
+
+.jumbotron {
+background-image: url("images/header.jpg");
+}
+
+.jumbotron h1 {
+  color: white;
+  background: rgb(0, 0, 0); /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+
+
+}

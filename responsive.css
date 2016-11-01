@@ -1,0 +1,133 @@
+@media(max-width:767px){
+
+  .row-centered {
+      text-align:center;
+  }
+  .col-centered {
+      display:inline-block;
+      float:none;
+      /* reset the text-align */
+      text-align:left;
+      /* inline-block space fix */
+      margin-left: auto;
+      margin-right: auto;
+
+  }
+
+  .col-xs-10 {
+      width: auto;
+  }
+
+  h2 span {
+     color: white;
+     font: bold 20px/45px Helvetica, Sans-Serif;
+     letter-spacing: -1px;
+     background: rgb(0, 0, 0); /* fallback color */
+     background: rgba(0, 0, 0, 0.7);
+     padding: 10px;
+
+
+  }
+
+
+  h2{
+       position: absolute;
+       top: 3em;
+       left: -1.9em;
+       width: 100%;
+       text-align: center;
+
+  }
+
+
+  .btn-group-lg>.btn, .btn-lg {
+      padding: 8px 11px;
+      font-size: 14px;
+      line-height: 1.3333333;
+      border-radius: 6px;
+      border: 1px solid gray;
+      margin-left: auto;
+      margin-right: auto;
+}
+
+
+
+  img:hover p{
+
+    opacity: 1;
+  }
+
+}
+
+@media (min-width: 768px){
+img {
+  height: 40em;
+  width: 45em;
+}
+
+
+h2 span {
+   color: white;
+   font: bold 40px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+}
+
+h2{
+     position: absolute;
+     top: 8.2em;
+     left: 1.5em;
+     width: 100%;
+}
+
+
+
+}
+
+@media (min-width: 992px){
+
+  h2{
+       position: absolute;
+       top: 8.2em;
+       left: 5.2em;
+       width: 100%;
+  }
+
+  h2 span {
+     color: white;
+     font: bold 40px/45px Helvetica, Sans-Serif;
+     letter-spacing: -1px;
+     background: rgb(0, 0, 0); /* fallback color */
+     background: rgba(0, 0, 0, 0.7);
+     padding: 10px;
+  }
+}
+
+@media (min-width: 1200px){
+
+img{
+  height: 20em;
+  width: 25em;
+}
+
+h2 span {
+   color: white;
+   font: bold 20px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+
+}
+
+
+h2{
+     position: absolute;
+     top: 4.2em;
+     left: 0.3em;
+     width: 100%;
+}
+
+}
